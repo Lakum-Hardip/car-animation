@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0b0b0b;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Headline */
+
+.headline {
+  font-size: 3rem;
+  letter-spacing: 0.6em;
+  font-weight: 300;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.headline span {
+  display: inline-block;
+}
+
+/* Stats */
+
+.stats {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 60px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat h2 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  color: #aaa;
+}
+
+/* Car */
+
+.car {
+  width: 500px;
+  position: absolute;
+  bottom: 40px;
+  left: -250px;
+  will-change: transform;
+}
+
+/* Extra scroll space */
+
+.spacer {
+  height: 200vh;
+}
